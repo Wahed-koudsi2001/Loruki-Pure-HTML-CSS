@@ -1,0 +1,97 @@
+.h1 {
+  font-size: 50px !important;
+  font-weight: 700 !important;
+}
+/* Start intorduction */
+.intorduction {
+  margin: 60px 0;
+}
+.intorduction .container {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 991px) {
+  .intorduction .container {
+    flex-direction: column;
+  }
+}
+.intorduction .essentials {
+  width: 30%;
+  padding: 24px;
+  background-color: #f4f4f4;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+}
+@media (max-width: 991px) {
+  .intorduction .essentials {
+    width: 100%;
+  }
+}
+.intorduction .essentials h4 {
+  margin: 20px 0;
+  font-size: 24px;
+}
+.intorduction .essentials ul {
+  margin: 10px 0;
+}
+.intorduction .essentials ul li {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.intorduction .essentials ul li:hover {
+  font-weight: 700;
+}
+.intorduction .essentials ul li.active {
+  color: #00f;
+}
+.intorduction .intro {
+  width: 60%;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+  padding: 30px 20px;
+  border-radius: 10px;
+}
+@media (max-width: 991px) {
+  .intorduction .intro {
+    margin-top: 30px;
+    width: 100%;
+  }
+}
+.intorduction .intro h2 {
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.intorduction .intro p {
+  line-height: 1.4;
+  color: #333;
+  margin: 20px 0;
+}
+.intorduction .intro .bold {
+  background-color: #080;
+  font-weight: bold;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+.intorduction .intro .btn {
+  background-color: #047aed;
+  color: #f4f4f4;
+  margin-bottom: 20px;
+  transition: 0.5s;
+}
+.intorduction .intro .btn:hover {
+  transform: scale(0.9);
+}
+.intorduction .intro span {
+  display: block;
+  margin: 10px 0;
+}
+.intorduction .intro small {
+  margin: 10px 0;
+  display: block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+/* End intorduction */
